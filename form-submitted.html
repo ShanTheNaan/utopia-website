@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form submitted</title>
+		<link rel="stylesheet" href="bulma.min.css">
+		<style>
+			@-webkit-keyframes colors {
+				0% {background-color: blue;}
+				10% {background-color: teal;}
+				20% {background-color: fuchsia;}
+				30% {background-color: maroon;}
+				40% {background-color: red;}
+				50% {background-color: green;}
+				60% {background-color: lime;}
+				70% {background-color: yellow;}
+				80% {background-color: purple;}
+				90% {background-color: navy;}
+				100% {background-color: blue;}
+			}
+
+			@keyframes colors {
+				0% {background-color: blue;}
+				10% {background-color: teal;}
+				20% {background-color: fuchsia;}
+				30% {background-color: maroon;}
+				40% {background-color: red;}
+				50% {background-color: green;}
+				60% {background-color: lime;}
+				70% {background-color: yellow;}
+				80% {background-color: purple;}
+				90% {background-color: navy;}
+				100% {background-color: blue;}
+			}
+
+			header {
+				-webkit-transition:  1s;
+				-o-transition:  1s;
+				transition:  1s;
+				-webkit-animation-direction: normal;
+				        animation-direction: normal;
+				-webkit-animation-duration: 10s;
+				        animation-duration: 10s;
+				-webkit-animation-iteration-count: infinite;
+				        animation-iteration-count: infinite;
+				-webkit-animation-timing-function: cubic-bezier(0.42, 0, 1, 0.98);
+				        animation-timing-function: cubic-bezier(0.42, 0, 1, 0.98);
+				-webkit-animation-name: colors;
+				        animation-name: colors;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="hero is-info is-large has-text-centered">
+			<div class="hero-body">
+				<div class="container">
+					<div class="level">
+						<div class="level-item">
+							<h1 class="title">Yay, you submitted the form! Although, it doesn't work. Bummer.</h1>
+						</div>
+					</div>
+					<a href="index.html" class="button is-link">Go back</a>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>
